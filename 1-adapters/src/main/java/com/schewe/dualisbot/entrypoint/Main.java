@@ -1,6 +1,5 @@
 package com.schewe.dualisbot.entrypoint;
 
-import com.schewe.dualisbot.adapters.DualisGateway;
 import com.schewe.dualisbot.adapters.DualisWebscraper;
 import com.schewe.dualisbot.adapters.telegram.TelegramAPI;
 import com.schewe.dualisbot.domain.dualis.entities.Exam;
