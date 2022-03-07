@@ -1,0 +1,16 @@
+module_id;credits;final_grade;semester;module_name;status;
+T3INF1004; 9;1.0;SoSe 2020;Programmieren;bestanden;
+T3_2000; 20;1.2;SoSe 2021;Praxisprojekt II;bestanden;
+T3INF2006; 5;1.2;WiSe 2020/21;Kommunikations- und Netztechnik;bestanden;
+T3INF1003; 5;1.6;SoSe 2020;Theoretische Informatik II;bestanden;
+T3INF4211; 5;1.0;SoSe 2021;Compilerbau;bestanden;
+T3INF1005; 5;1.2;SoSe 2020;Schlüsselqualifikationen;bestanden;
+T3INF1006; 5;1.5;WiSe 2019/20;Technische Informatik I;bestanden;
+T3INF2005; 8;1.7;SoSe 2021;Technische Informatik II;bestanden;
+T3INF4190; 5;1.3;WiSe 2019/20;Schlüsselqualifikationen II;bestanden;
+T3INF2002; 6;1.0;WiSe 2020/21;Theoretische Informatik III;bestanden;
+T3INF4101; 3;2.2;WiSe 2019/20;Web Engineering;bestanden;
+T3INF4911; 5;1.4;SoSe 2021;Wahlmodul Informatik;bestanden;
+T3INF4103; 5;1.0;WiSe 2019/20;Anwendungsprojekt Informatik;bestanden;
+T3INF2003; 9;1.0;SoSe 2021;Software Engineering I;bestanden;
+T3INF2004; 6;2.1;SoSe 2021;Datenbanken;bestanden;

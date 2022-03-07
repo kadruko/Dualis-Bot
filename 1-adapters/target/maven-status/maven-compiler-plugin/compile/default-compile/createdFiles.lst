@@ -1,0 +1,7 @@
+com\schewe\dualisbot\adapters\DualisGateway.class
+com\schewe\dualisbot\adapters\telegram\TelegramAPI.class
+com\schewe\dualisbot\adapters\csv\ModulesCSV.class
+com\schewe\dualisbot\adapters\csv\AttemptsCSV.class
+com\schewe\dualisbot\adapters\csv\SemestersCSV.class
+com\schewe\dualisbot\adapters\csv\ExamsCSV.class
+com\schewe\dualisbot\entrypoint\Main.class

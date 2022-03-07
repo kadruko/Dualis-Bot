@@ -1,0 +1,11 @@
+com\schewe\dualisbot\domain\dualis\entities\Semester.class
+com\schewe\dualisbot\domain\telegram\entities\Message.class
+com\schewe\dualisbot\domain\telegram\enumerations\Chatroom.class
+com\schewe\dualisbot\domain\dualis\valueobjects\Credits.class
+com\schewe\dualisbot\domain\dualis\entities\Attempt.class
+com\schewe\dualisbot\domain\dualis\entities\Exam.class
+com\schewe\dualisbot\domain\dualis\enumerations\RatingType.class
+com\schewe\dualisbot\domain\dualis\interfaces\ModuleMatcher.class
+com\schewe\dualisbot\domain\dualis\valueobjects\Rating.class
+com\schewe\dualisbot\domain\dualis\entities\Module.class
+com\schewe\dualisbot\domain\dualis\enumerations\SemesterType.class

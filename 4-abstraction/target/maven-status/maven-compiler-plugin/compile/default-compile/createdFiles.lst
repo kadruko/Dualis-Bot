@@ -1,0 +1,4 @@
+com\schewe\dualisbot\abstraction\valueobjects\Grade.class
+com\schewe\dualisbot\abstraction\valueobjects\NaturalNumber.class
+com\schewe\dualisbot\abstraction\valueobjects\Percentage.class
+com\schewe\dualisbot\abstraction\io\CSVReader.class
