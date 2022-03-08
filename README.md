@@ -2,6 +2,8 @@
 
 ![Dualis-Bot Logo](img/dualis-bot.png?raw=true "Dualis-Bot Logo")
 
+Die Dokumentation kann im Wurzelverzeichnis (Dokumentation.pdf) gefunden werden.
+
 ## Übersicht über die Applikation
 
 Die Duale Hochschule Baden-Württemberg nutzt das Tool Moodle als Studierendenverwaltungssystem. Das Portal Dualis ist ein Teil des Moodle-Softwarepakets. Mit Hilfe des Dualis Web-Client können Studierende Noten und weitere Informationen zum Studium abrufen.
