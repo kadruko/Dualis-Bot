@@ -2,10 +2,11 @@ package com.schewe.dualisbot.entrypoint;
 
 import com.schewe.dualisbot.adapters.DualisGateway;
 import com.schewe.dualisbot.adapters.DualisWebscraper;
-import com.schewe.dualisbot.adapters.telegram.TelegramAPI;
 import com.schewe.dualisbot.application.ExamsComparator;
+import com.schewe.dualisbot.application.MessageFactory;
 import com.schewe.dualisbot.domain.dualis.entities.Exam;
 import com.schewe.dualisbot.domain.telegram.entities.Message;
+import com.schewe.dualisbot.telegram.TelegramAPI;
 
 import java.io.IOException;
 import java.util.List;
