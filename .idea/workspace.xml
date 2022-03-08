@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="1-adapters:jar" />
+      <artifact name="dualis-bot:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="30533322-73e2-4efd-b485-09d3f0e034e5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/src/main/java/com/schewe/dualisbot/telegram/TelegramAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/src/main/java/com/schewe/dualisbot/telegram/TelegramAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/DualisGateway.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/DualisGateway.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/DualisWebscraper.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/DualisWebscraper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/AttemptsCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/AttemptsCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/ExamsCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/ExamsCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/ModulesCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/ModulesCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/SemestersCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/SemestersCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/WebscraperInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/WebscraperInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/Converter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/ConverterInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/ConverterInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/CreditsConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/CreditsConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/EmptyConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/EmptyConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/GradeConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/GradeConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/NaturalNumberConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/NaturalNumberConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/PercentageConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/PercentageConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/RatingConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/RatingConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/SemesterConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/SemesterConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/StatusConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/StatusConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/entrypoint/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/entrypoint/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/telegram/TelegramAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/telegram/TelegramAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-application/target/classes/com/schewe/dualisbot/application/EntityMatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/target/classes/com/schewe/dualisbot/application/EntityMatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-application/target/classes/com/schewe/dualisbot/application/ExamsComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/target/classes/com/schewe/dualisbot/application/ExamsComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-application/target/classes/com/schewe/dualisbot/application/MessageFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/target/classes/com/schewe/dualisbot/application/MessageFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-application/target/test-classes/com/schewe/dualisbot/application/test/EntityMatcherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/target/test-classes/com/schewe/dualisbot/application/test/EntityMatcherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-application/target/test-classes/com/schewe/dualisbot/application/test/ExamsComparatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/target/test-classes/com/schewe/dualisbot/application/test/ExamsComparatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2-application/target/test-classes/com/schewe/dualisbot/application/test/MessageFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/target/test-classes/com/schewe/dualisbot/application/test/MessageFactoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/entities/Attempt.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/entities/Attempt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/entities/Exam.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/entities/Exam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/entities/Module.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/entities/Module.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/entities/Semester.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/entities/Semester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/enumerations/RatingType.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/enumerations/RatingType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/enumerations/SemesterType.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/enumerations/SemesterType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/interfaces/ModuleMatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/interfaces/ModuleMatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/valueobjects/Credits.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/valueobjects/Credits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/valueobjects/Rating.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/valueobjects/Rating.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/telegram/entities/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/telegram/entities/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/telegram/enumerations/Chatroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/telegram/enumerations/Chatroom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-abstraction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/4-abstraction/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/io/CSVReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/io/CSVReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/io/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/io/FileUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/valueobjects/Grade.class" beforeDir="false" afterPath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/valueobjects/Grade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/valueobjects/NaturalNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/valueobjects/NaturalNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/valueobjects/Percentage.class" beforeDir="false" afterPath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/valueobjects/Percentage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dualis-bot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dualis-bot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old-results/exams.csv" beforeDir="false" afterPath="$PROJECT_DIR$/old-results/exams.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="22rscyIg23akaVuOjFb3BwyrNkH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/1-adapters/src/main/resources/META-INF" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\i518046\Desktop\Vorlesungen\Advanced Software Engineering\github\3-domain\src\main\java\com\schewe\dualisbot\domain\telegram" />
+      <recent name="C:\Users\i518046\Desktop\Vorlesungen\Advanced Software Engineering\github\1-adapters\src\main\java\com\schewe\dualisbot\adapters" />
+      <recent name="C:\Users\i518046\Desktop\Vorlesungen\Advanced Software Engineering\github\4-abstraction\src\main\java\com\schewe\dualisbot\abstraction\valueobjects" />
+      <recent name="C:\Users\i518046\Desktop\Vorlesungen\Advanced Software Engineering\github\3-domain\src\main\java\com\schewe\dualisbot\domain" />
+      <recent name="C:\Users\i518046\Desktop\Vorlesungen\Advanced Software Engineering\github\4-abstraction\src\main\java\com\schewe\dualisbot\abstraction" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.schewe.dualisbot" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.schewe.dualisbot.telegram" />
+      <recent name="com.schewe.dualisbot.application.test" />
+      <recent name="com.schewe.dualisbot.application" />
+      <recent name="com.schewe.dualisbot.domain.dualis.interfaces" />
+      <recent name="com.schewe.dualisbot.adapters" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install -U" />
+      <command value="mvn test" />
+      <command value="mvn install" />
+      <command value="mvn clean install" />
+      <command value="mvn clean test" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.schewe.dualisbot.entrypoint.Main" />
+      <module name="1-adapters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.schewe.dualisbot.entrypoint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.schewe.dualisbot.dualiswebscraper.entrypoint.Main" />
+      <module name="0-dualis-webscraper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.schewe.dualisbot.dualiswebscraper.entrypoint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.schewe.dualisbot.Main" />
+      <module name="dualis-bot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.schewe.dualisbot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntityMatcherTest.matchModulesExamNotIncluded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.schewe.dualisbot.application.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.schewe.dualisbot.application.test" />
+      <option name="MAIN_CLASS_NAME" value="com.schewe.dualisbot.application.test.EntityMatcherTest" />
+      <option name="METHOD_NAME" value="matchModulesExamNotIncluded" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamsComparatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.schewe.dualisbot.application.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.schewe.dualisbot.application.test" />
+      <option name="MAIN_CLASS_NAME" value="com.schewe.dualisbot.application.test.ExamsComparatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2-application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.schewe.dualisbot.application.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.schewe.dualisbot.application.test" />
+      <option name="MAIN_CLASS_NAME" value="com.schewe.dualisbot.application.test.MessageFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ExamsComparatorTest" />
+        <item itemvalue="JUnit.MessageFactoryTest" />
+        <item itemvalue="JUnit.EntityMatcherTest.matchModulesExamNotIncluded" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\i518046\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30533322-73e2-4efd-b485-09d3f0e034e5" name="Default Changelist" comment="" />
+      <created>1640607123169</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640607123169</updated>
+      <workItem from="1645192370555" duration="515000" />
+      <workItem from="1645192977078" duration="1169000" />
+      <workItem from="1645194198019" duration="9464000" />
+      <workItem from="1645216394138" duration="16839000" />
+      <workItem from="1646310128043" duration="2011000" />
+      <workItem from="1646640562145" duration="4054000" />
+      <workItem from="1646647162859" duration="4245000" />
+      <workItem from="1646726597596" duration="1048000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

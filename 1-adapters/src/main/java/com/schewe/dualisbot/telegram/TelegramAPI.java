@@ -23,7 +23,7 @@ public class TelegramAPI {
         String parameterMessage = "&" + PARAMETER_MESSAGE + "=" + message.getText();
         String parameters = parameterChatroomId + parameterMessage;
 
-        String urlEncoded = API_URL + ENDPOINT_MESSAGE + URLEncoder.encode(parameters, StandardCharsets.UTF_8);
+        String urlEncoded = API_URL + ENDPOINT_MESSAGE + URLEncoder.encode(parameters, String.valueOf(StandardCharsets.UTF_8));
         URL url = new URL(urlEncoded);
         url.openConnection();
 

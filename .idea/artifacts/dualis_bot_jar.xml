@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="dualis-bot:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/dualis_bot_jar</output-path>
+    <root id="archive" name="dualis-bot.jar">
+      <element id="module-output" name="dualis-bot" />
+    </root>
+  </artifact>
+</component>

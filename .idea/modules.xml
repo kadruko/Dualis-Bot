@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1-adapters/1-adapters.iml" filepath="$PROJECT_DIR$/1-adapters/1-adapters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2-application/2-application.iml" filepath="$PROJECT_DIR$/2-application/2-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3-domain/3-domain.iml" filepath="$PROJECT_DIR$/3-domain/3-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4-abstraction/4-abstraction.iml" filepath="$PROJECT_DIR$/4-abstraction/4-abstraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dualis-bot.iml" filepath="$PROJECT_DIR$/dualis-bot.iml" />
+    </modules>
+  </component>
+</project>
