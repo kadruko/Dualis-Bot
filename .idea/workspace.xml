@@ -6,20 +6,16 @@
       <artifact name="dualis-bot:jar" />
     </artifacts-to-build>
   </component>
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="30533322-73e2-4efd-b485-09d3f0e034e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-adapters/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-adapters/src/main/java/com/schewe/dualisbot/telegram/TelegramAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/src/main/java/com/schewe/dualisbot/telegram/TelegramAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/src/main/java/com/schewe/dualisbot/adapters/csv/AttemptsCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/src/main/java/com/schewe/dualisbot/adapters/csv/AttemptsCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/src/main/java/com/schewe/dualisbot/adapters/csv/ExamsCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/src/main/java/com/schewe/dualisbot/adapters/csv/ExamsCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/src/main/java/com/schewe/dualisbot/adapters/csv/ModulesCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/src/main/java/com/schewe/dualisbot/adapters/csv/ModulesCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/src/main/java/com/schewe/dualisbot/adapters/csv/SemestersCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/src/main/java/com/schewe/dualisbot/adapters/csv/SemestersCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/src/main/java/com/schewe/dualisbot/adapters/csv/converters/Converter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-adapters/src/main/java/com/schewe/dualisbot/adapters/csv/converters/EmptyConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/src/main/java/com/schewe/dualisbot/adapters/csv/converters/EmptyConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/DualisGateway.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/DualisGateway.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/DualisWebscraper.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/DualisWebscraper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/AttemptsCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/AttemptsCSV.class" afterDir="false" />
@@ -39,14 +35,12 @@
       <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/StatusConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/adapters/csv/converters/StatusConverter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/entrypoint/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/entrypoint/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/telegram/TelegramAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/1-adapters/target/classes/com/schewe/dualisbot/telegram/TelegramAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-application/target/classes/com/schewe/dualisbot/application/EntityMatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/target/classes/com/schewe/dualisbot/application/EntityMatcher.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-application/target/classes/com/schewe/dualisbot/application/ExamsComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/target/classes/com/schewe/dualisbot/application/ExamsComparator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-application/target/classes/com/schewe/dualisbot/application/MessageFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/target/classes/com/schewe/dualisbot/application/MessageFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-application/target/test-classes/com/schewe/dualisbot/application/test/EntityMatcherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/target/test-classes/com/schewe/dualisbot/application/test/EntityMatcherTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-application/target/test-classes/com/schewe/dualisbot/application/test/ExamsComparatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/target/test-classes/com/schewe/dualisbot/application/test/ExamsComparatorTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2-application/target/test-classes/com/schewe/dualisbot/application/test/MessageFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/2-application/target/test-classes/com/schewe/dualisbot/application/test/MessageFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/entities/Attempt.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/entities/Attempt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/entities/Exam.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/entities/Exam.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/entities/Module.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/entities/Module.class" afterDir="false" />
@@ -58,16 +52,13 @@
       <change beforePath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/valueobjects/Rating.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/dualis/valueobjects/Rating.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/telegram/entities/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/telegram/entities/Message.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/telegram/enumerations/Chatroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/3-domain/target/classes/com/schewe/dualisbot/domain/telegram/enumerations/Chatroom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4-abstraction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/4-abstraction/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4-abstraction/src/main/java/com/schewe/dualisbot/abstraction/io/CSVReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/4-abstraction/src/main/java/com/schewe/dualisbot/abstraction/io/CSVReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/io/CSVReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/io/CSVReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/io/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/io/FileUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/valueobjects/Grade.class" beforeDir="false" afterPath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/valueobjects/Grade.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/valueobjects/NaturalNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/valueobjects/NaturalNumber.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/valueobjects/Percentage.class" beforeDir="false" afterPath="$PROJECT_DIR$/4-abstraction/target/classes/com/schewe/dualisbot/abstraction/valueobjects/Percentage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dualis-bot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dualis-bot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/old-results/exams.csv" beforeDir="false" afterPath="$PROJECT_DIR$/old-results/exams.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,13 +88,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="22rscyIg23akaVuOjFb3BwyrNkH" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -116,7 +100,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/1-adapters/src/main/resources/META-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -251,7 +235,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\i518046\AppData\Roaming\Subversion</configuration>
   </component>
@@ -269,7 +253,7 @@
       <workItem from="1646310128043" duration="2011000" />
       <workItem from="1646640562145" duration="4054000" />
       <workItem from="1646647162859" duration="4245000" />
-      <workItem from="1646726597596" duration="1048000" />
+      <workItem from="1646726597596" duration="1353000" />
     </task>
     <servers />
   </component>
@@ -286,5 +270,40 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="337" key="GridCell.Tab.0.bottom" timestamp="1648546891585">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="337" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1648546891585" />
+    <state width="1493" height="337" key="GridCell.Tab.0.center" timestamp="1648546891585">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="337" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1648546891585" />
+    <state width="1493" height="337" key="GridCell.Tab.0.left" timestamp="1648546891585">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="337" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1648546891585" />
+    <state width="1493" height="337" key="GridCell.Tab.0.right" timestamp="1648546891585">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="337" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1648546891585" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1648546037249">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1648546037249" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1648546037249">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1648546037249" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1648546037249">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1648546037249" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1648546037249">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1648546037249" />
   </component>
 </project>

@@ -1,11 +1,15 @@
 package com.schewe.dualisbot.adapters.csv;
 
 import com.schewe.dualisbot.abstraction.io.CSVReader;
-import com.schewe.dualisbot.adapters.csv.converters.SemesterConverter;
+import com.schewe.dualisbot.abstraction.valueobjects.Grade;
+import com.schewe.dualisbot.adapters.csv.converters.*;
+import com.schewe.dualisbot.domain.dualis.entities.Module;
 import com.schewe.dualisbot.domain.dualis.entities.Semester;
+import com.schewe.dualisbot.domain.dualis.valueobjects.Credits;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class SemestersCSV {
 
@@ -14,17 +18,10 @@ public class SemestersCSV {
     private final List<Semester> semesters = new ArrayList<>();
 
     public SemestersCSV(CSVReader csvReader) throws Exception {
-        String[] header = csvReader.getHeader();
-        for(String[] line : csvReader.getLines()){
-            for(int i = 0; i < line.length; i++){
-                String value = line[i].trim();
-                if ("semester".equals(header[i])) {
-                    Semester semester = new SemesterConverter(value).convert();
-                    semesters.add(semester);
-                } else {
-                    throw new Exception("Unknown header in modules CSV: " + header[i]);
-                }
-            }
+        for(int i = 0; i < csvReader.getLines().size(); i++) {
+            Map<String, String> values = csvReader.getValueMapForLine(i);
+            Semester semester = new SemesterConverter(values.get("semester")).convert();
+            semesters.add(semester);
         }
     }
 

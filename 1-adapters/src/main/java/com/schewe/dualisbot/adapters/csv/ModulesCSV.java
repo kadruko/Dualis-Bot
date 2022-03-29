@@ -9,6 +9,7 @@ import com.schewe.dualisbot.domain.dualis.valueobjects.Credits;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class ModulesCSV {
 
@@ -17,39 +18,15 @@ public class ModulesCSV {
     private final List<Module> modules = new ArrayList<>();
 
     public ModulesCSV(CSVReader csvReader) throws Exception {
-        String[] header = csvReader.getHeader();
-        for(String[] line : csvReader.getLines()){
-            String moduleId = null;
-            String moduleName = null;
-            Semester semester = null;
-            Credits credits = null;
-            boolean passed = false;
-            Grade grade = null;
-            for(int i = 0; i < line.length; i++){
-                String value = line[i].trim();
-                switch(header[i]){
-                    case "module_id":
-                        moduleId = new EmptyConverter(value).convert();
-                        break;
-                    case "module_name":
-                        moduleName = new EmptyConverter(value).convert();
-                        break;
-                    case "semester":
-                        semester = new SemesterConverter(value).convert();
-                        break;
-                    case "credits":
-                        credits = new CreditsConverter(value).convert();
-                        break;
-                    case "status":
-                        passed = new StatusConverter(value).convert();
-                        break;
-                    case "final_grade":
-                        grade = new GradeConverter(value).convert();
-                        break;
-                    default:
-                        throw new Exception("Unknown header in modules CSV: " + header[i]);
-                }
-            }
+        for(int i = 0; i < csvReader.getLines().size(); i++) {
+            Map<String, String> values = csvReader.getValueMapForLine(i);
+            String moduleId = new EmptyConverter(values.get("module_id")).convert();
+            String moduleName = new EmptyConverter(values.get("module_name")).convert();
+            Semester semester = new SemesterConverter(values.get("semester")).convert();
+            Credits credits = new CreditsConverter(values.get("credits")).convert();
+            boolean passed = new StatusConverter(values.get("status")).convert();
+            Grade grade = new GradeConverter(values.get("final_grade")).convert();
+
             Module module = new Module(moduleId, moduleName, semester, credits, passed, grade);
             modules.add(module);
         }

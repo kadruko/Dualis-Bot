@@ -4,9 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class CSVReader {
 
@@ -28,6 +26,16 @@ public class CSVReader {
                 i++;
             }
         }
+    }
+
+    public Map<String, String> getValueMapForLine(int i){
+        Map<String, String> values = new HashMap<>();
+        String[] line = this.getLine(i);
+        for(int j = 0; j < line.length; j++) {
+            String value = line[j].trim();
+            values.put(header[j], value);
+        }
+        return values;
     }
 
     public String[] getHeader() {
